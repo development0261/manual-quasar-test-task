@@ -1,0 +1,1 @@
+# manual-quasar-test-task
