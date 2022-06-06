@@ -48,24 +48,7 @@
 import EssentialLink from "components/EssentialLink.vue";
 import { mapActions } from "vuex";
 const linksData = [
-  // {
-  //     title: 'Register',
-  //     caption: 'Register',
-  //     icon: 'person_add_alt',
-  //     link: '/register',
-  //     meta:{
-  //       hasAuth:false,
-  //     }
-  // },
-  // {
-  //     title: 'Login',
-  //     caption: 'Login',
-  //     icon: 'login',
-  //     link: '/login',
-  //     meta:{
-  //       hasAuth:false,
-  //     }
-  // },
+
   {
     title: "Dashboard",
     caption: "Dashboard",
@@ -75,15 +58,7 @@ const linksData = [
       hasAuth: true,
     },
   },
-  // {
-  //     title: 'Profile',
-  //     caption: 'Profile',
-  //     icon: 'portrait',
-  //     link: '/profile',
-  //     meta:{
-  //       hasAuth:true,
-  //     }
-  // },
+
   {
     title: "Properties",
     caption: "Properties",
@@ -94,23 +69,15 @@ const linksData = [
     },
   },
   {
-    title: "Books",
-    caption: "Books",
+    title: "Bookings",
+    caption: "Bookings",
     icon: "view_list",
     link: "/bookings",
     meta: {
       hasAuth: true,
     },
   },
-  // {
-  //     title: 'Logout',
-  //     caption: 'Logout',
-  //     icon: 'logout',
-  //     link: '/logout',
-  //     meta:{
-  //       hasAuth:true,
-  //     }
-  // }
+
 ];
 
 export default {
